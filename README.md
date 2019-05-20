@@ -2,14 +2,20 @@
 
 ## Prerequisites
 
-Install cmake `sudo apt install cmake`
+Install cmake : 
+
+`sudo apt install cmake`
 
 ## How to compile
 
-Generate makefile `cmake .`
+Generate makefile :
 
-Make `make`
+`cmake .`
+
+Compile :
+
+`make`
 
 ## How to run
 
-Run program `./main`
+Run program `./bin/main`
