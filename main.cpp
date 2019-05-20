@@ -17,19 +17,18 @@ int main () {
     // time_t start;
     // time(&start);
 
-    cv::namedWindow("Window2", cv::WINDOW_AUTOSIZE);
+    cv::namedWindow("window2", cv::WINDOW_AUTOSIZE);
     while (true) {
       // count++;
       videoOpenCv.read(img);
+      cv::imshow("window2", img);
       int key = cv::waitKey(1000/25);
-      if (key == (int)'q') {
+      if(key==(int)'q'){
+        cv::imwrite("test.png", img);
         break;
       }
       // count = calculationFPS(&start, count);
     }
-
-    videoOpenCv.read(img);
-    cv::imwrite("test.png", img);
   }
 
   catch (int e) {
