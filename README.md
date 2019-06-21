@@ -29,13 +29,9 @@ Create the csv file with :
 
 ## How to compile
 
-Generate makefile :
+Generate makefile : `cmake .`
 
-`cmake .`
-
-Compile :
-
-`make`
+Compile : `make`
 
 ## How to run
 
