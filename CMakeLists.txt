@@ -17,6 +17,11 @@ set(PROJECT_SOURCE_DIR "${PROJECT_SOURCE_DIR}/src")
 # The following folder will be included
 include_directories("${PROJECT_SOURCE_DIR}")
 
+# Add training datas
+add_custom_target(training_data ALL 
+  COMMAND ${CMAKE_COMMAND} -E copy_directory ${PROJECT_SOURCE_DIR}/training_data ${EXECUTABLE_OUTPUT_PATH}/training_data
+)
+
 # Exécutables
 add_executable(main ${PROJECT_SOURCE_DIR}/main.cpp)
 
