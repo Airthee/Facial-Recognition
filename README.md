@@ -1,4 +1,5 @@
 ![GitHub](https://img.shields.io/github/license/Airthee/Facial-Recognition.svg?style=flat-square)
+![Twitter Follow](https://img.shields.io/twitter/follow/Airthee.svg)
 
 # Facial recognition
 
