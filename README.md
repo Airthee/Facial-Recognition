@@ -1,3 +1,5 @@
+![GitHub](https://img.shields.io/github/license/Airthee/Facial-Recognition.svg?style=flat-square)
+
 # Facial recognition
 
 ## Prerequisites
