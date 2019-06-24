@@ -30,6 +30,12 @@ Create the csv file with :
   python createCSVFile.py . > data.csv
 ```
 
+Resize all images in a repository (recursive) :
+
+``` bash
+for i in $(find -iregex '.+\(\.pgm\|jpe?g\|png\)'); do convert $i -resize 90x90! $i; done
+```
+
 ## How to compile
 
 Generate makefile : `cmake .`
